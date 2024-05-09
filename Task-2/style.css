@@ -1,0 +1,67 @@
+/* Reset default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #158fad;
+    color: #fff;
+    padding: 20px;
+    /* Add more styles as needed */
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* Hero Section Styles */
+  .hero-section {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+    text-align: center;
+    /* Add more styles as needed */
+  }
+  
+  /* Services Section Styles */
+  .services-section {
+    background-color: #fff;
+    padding: 50px 0;
+    /* Add more styles as needed */
+  }
+  
+  /* Testimonials Section Styles */
+  .testimonials-section {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    /* Add more styles as needed */
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #158fad;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* Add more styles as needed */
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .header {
+      padding: 10px;
+    }
+  
+    .hero-section {
+      padding: 80px 0;
+    }
+  
+    .services-section,
+    .testimonials-section {
+      padding: 30px 0;
+    }
+  }
+  
